@@ -8,3 +8,9 @@ For example, if the user types in 4, the program should print 100 (since 1^3 + 2
 """
 
 #write your code here
+
+n = int(input("Please enter a number: "))
+sum = 0
+for x in range(1, n+1):
+  sum = sum + x*x*x
+print(sum)
